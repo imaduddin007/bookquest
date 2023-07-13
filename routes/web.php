@@ -20,9 +20,7 @@ use App\Http\Controllers\OrderController;
 |
 */
 
-Route::get('/', function () {
-    return view('auth.login');
-});
+Route::get('/', [App\Http\Controllers\DashboardController::class, 'index'])->name('dashboard');
 
 Auth::routes();
 
