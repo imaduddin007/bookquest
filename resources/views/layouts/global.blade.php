@@ -64,24 +64,18 @@
       <div class="main-sidebar sidebar-style-2">
         <aside id="sidebar-wrapper">
           <div class="sidebar-brand">
-            <a href="#">Stisla</a>
+            <a href="/home">BookQuest</a>
           </div>
           <div class="sidebar-brand sidebar-brand-sm">
-            <a href="#">St</a>
+            <a href="/home">BQ</a>
           </div>
           <ul class="sidebar-menu">
             <li class="menu-header">Menu</li>
             <li><a class="nav-link" href="/home"><i class="fa-solid fa-house"></i> <span>Home</span></a></li>
-            <li><a class="nav-link" href="#"><i class="fa-solid fa-users"></i><span>Manage user</span></a></li>
-             {{-- <li>
-                        <a href="{{ route('users.index') }}">
-                            <span class="oi oi-people"></span> Manage Users
-                        </a>
-                    </li>
-                    <li><a href="{{ route('categories.index') }}"><span class="oi oi-tag"></span> Manage Categories</a>
-                    </li>
-                    <li><a href="{{route('books.index')}}"><span class="oi oi-book"></span> Manage Books</a></li>
-                    <li><a href="{{route('orders.index')}}"><span class="oi oi-inbox"></span> Manage Orders</a></li> --}}
+            <li><a class="nav-link" href="{{ route('users.index') }}"><i class="fa-solid fa-users"></i><span>Manage user</span></a></li>
+            <li><a class="nav-link" href="{{ route('categories.index') }}"><i class="fa-solid fa-tag"></i><span>Manage Categories</span></a></li>
+            <li><a class="nav-link" href="{{ route('books.index') }}"><i class="fa-solid fa-book"></i><span>Manage Books</span></a></li>
+            <li><a class="nav-link" href="{{ route('orders.index') }}"><i class="fa-solid fa-inbox"></i><span>Manage Orders</span></a></li>
           </ul>
       </aside>
       </div>
@@ -105,7 +99,7 @@
       </div>
       <footer class="main-footer">
         <div class="footer-left">
-          Copyright &copy; 2023 <div class="bullet"></div> Design By <a href="https://nauval.in/">Kelompok 3 - SI02</a>
+          Copyright &copy; 2023 <div class="bullet"></div> Design By Kelompok 3 - SI02</a>
         </div>
         <div class="footer-right">
           

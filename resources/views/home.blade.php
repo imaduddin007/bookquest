@@ -1,4 +1,4 @@
-@extends('layouts.global1')
+@extends('layouts.global')
 
 @section('content')
 <div class="container">
